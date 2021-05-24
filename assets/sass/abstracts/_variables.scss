@@ -1,0 +1,36 @@
+// Color Scheme
+// First
+$white: #fff;
+$platinium: #e6e7e7;
+$light-gray: #d1d1d1;
+// Second
+$fuzzy-wuzzy: #e56353;
+$ruddy-pink: #d76c69;
+$spanish-pink: #ecbcba;
+// Third
+$eerie-black:#121619;
+$raisin-black:#222323;
+$nickel:#6c6e70;
+
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+
+// Font
+$playfair:'Playfair Display', serif;
+$roboto:'Roboto', sans-serif;
+
+// Font Weight
+$fw-light: 300;
+$fw-regular: 400;
+$fw-black: 900;
+
+// Font Style
+$italic: italic;
+
+// Font Size
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;

@@ -1,0 +1,125 @@
+// Navbar
+.navbar{
+    background-color: $eerie-black;
+    font-family: $roboto;
+    font-weight: $fw-regular;
+    font-size: $medium;
+}
+
+.logo{
+    margin-left: 1.8rem;
+    &__image{
+        width: 30%;
+    }
+}
+
+// Navigation
+.navigation{
+    &__list{
+        display: flex;
+        list-style: none;
+        color: $white;
+        margin-top: 1rem;
+    }
+    &__item{
+        display: list-item;
+        margin: 0 1.2rem;
+    }
+}
+
+.active{color: $fuzzy-wuzzy;}
+
+// Main
+.main{
+    height: 720px;
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    padding: 12.25rem 3.125rem;
+
+    &__container{
+        width: 80%;
+        margin: auto;
+    }
+
+    &__title{
+        color: $white;
+        text-align: center;
+        font-size: $xx-large;
+        line-height: 1.5;
+    }
+}
+
+// Article
+.article{
+    line-height: 2.5;
+
+    &__container{
+        width: 80%;
+        margin: auto;
+    }
+
+    &__title{
+        color: $raisin-black;
+        font-size: $large;
+        margin: 4rem 0;
+    }
+
+    &__text-emphasis{
+        color: $fuzzy-wuzzy;
+    }
+
+    &__button{
+        margin: 5rem 0;
+    }
+}
+
+// Aside
+.aside{
+    &__container{
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+    &__avatar{
+        height: 140px;
+        width: 142px;
+        border-radius: 50%;
+    }
+
+    &__content{
+        margin-top: 1.25rem;
+    }
+
+    &__social a{
+        font-family: $roboto;
+        font-weight: $fw-light;
+        color: $ruddy-pink;
+        font-size: $large;
+        text-decoration: none;
+    }
+
+    &__social a:hover{
+        color: $raisin-black;
+    }
+
+    &__social a:active{
+        color: $platinium;
+    }
+}
+
+// Footer
+.footer{
+    padding: 3rem 0;
+    background-color: $eerie-black;
+
+    &__logo__img{
+        width: 8%;
+        margin: auto;
+        display: block;
+
+    }
+
+
+}

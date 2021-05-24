@@ -1,0 +1,18 @@
+// Botones
+.btn {
+    border-radius: 1.5rem;
+    background-color: $nickel;
+    font-family: $roboto;
+    font-weight: $fw-regular;
+    // font-size: $small;
+    font-size: $medium;
+    color: $white;
+
+    &:hover{
+     background-color: $light-gray;
+    }
+
+    &:focus{
+     outline: $light-gray solid 3px;
+     }
+}
